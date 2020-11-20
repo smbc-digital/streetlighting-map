@@ -7,7 +7,7 @@ switch  (d) {   case '1'    :
                     return '#e31a1c'    
             }
 }
-function streetlightsStyle (feature) {
+function streetlightingStyle (feature) {
 return {
     color: getColor_streetlights (feature.properties.raise_new_job),
     weight: 1,
