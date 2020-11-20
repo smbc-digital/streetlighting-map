@@ -39,7 +39,7 @@ const Configuration = {
                 }
 
             },
-            displayOverlay: false,
+            displayOverlay: true,
             visibleByDefault: true
         },
         
