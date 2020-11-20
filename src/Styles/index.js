@@ -9,8 +9,9 @@ switch  (d) {   case '1'    :
 }
 function streetlightingStyle (feature) {
 return {
+    radius: 6,
     color: getColor_streetlights (feature.properties.raise_new_job),
-    weight: 1,
+    weight: 2,
     opacity: 1,
     fillColor: getColor_streetlights (feature.properties.raise_new_job),
     fillOpacity: 0.5
