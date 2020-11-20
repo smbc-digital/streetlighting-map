@@ -1,4 +1,5 @@
-import { streetlightingPopup} from './Popups' //devsitesPopup, notdevsitesPopup}
+import Leaflet from 'leaflet'
+//import { streetlightingPopup} from './Popups' //devsitesPopup, notdevsitesPopup}
 import { streetlightingStyle} from './Styles'
 
 const Configuration = {
