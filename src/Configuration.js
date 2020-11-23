@@ -31,7 +31,7 @@ const Configuration = {
             key: 'Street Lights',
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=highway_assets:street_lights_reporting&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
-                maxZoom: 10,
+                maxZoom: 16,
                 pointToLayer: (feature, latlng) => {
                     return Leaflet.circleMarker (latlng, streetlightingStyle (feature))
 
