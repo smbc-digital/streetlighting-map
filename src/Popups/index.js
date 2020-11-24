@@ -16,7 +16,18 @@ const streetLightingPopup = (feature, layer) => {
   layer.bindPopup(content)
  }
 
- 
+//function streetLightingPopup(feature, layer) {
+//  if (feature.properties.raise_new_job = ("1   ")) {
+//    var content = "this is writing";
+//  } 
+//
+//  else if (feature.properties.raise_new_job = ("2   ")) {
+//    var content = "this is different writing";
+//  }
+//
+//layer.bindPopup(content)
+//}
+
 export {
   streetLightingPopup 
 }
