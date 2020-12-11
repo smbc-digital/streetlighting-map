@@ -1,6 +1,6 @@
 import Leaflet from 'leaflet'
-import { gulliesPopup} from './Popups' //devsitesPopup, notdevsitesPopup}
-import { gulliesStyle} from './Styles'
+import { streetLightingPopup} from './Popups' //devsitesPopup, notdevsitesPopup}
+import { streetlightingStyle} from './Styles'
 
 const Configuration = {
     Map: {
