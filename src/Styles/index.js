@@ -1,9 +1,9 @@
 function getColor_streetlights(d) {
-switch  (d) {   case '1'    :
+switch  (d) {   case 1    :
                     return '#33a02c'    
-                case '2'    :
+                case 2    :
                     return '#ff7f00'
-                case '3'    :
+                case 3    :
                     return '#e31a1c'    
             }
 }
