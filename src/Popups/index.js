@@ -1,6 +1,6 @@
 import { getTargetUrl } from '../Helpers'
 
-const streetLightingPopup = (feature, layer) => {
+const streetlightPopup = (feature, layer) => {
   const varName = getTargetUrl()
 
   const content = `<div class="item"><i class="tag fa fa-map-marker"></i><p class="title">Location </p><p class="info">${feature.properties.location_description}</p></div><hr/>
@@ -78,5 +78,5 @@ const streetLightingPopup = (feature, layer) => {
 //}
 
 export {
-  streetLightingPopup 
+  streetlightPopup 
 }
