@@ -1,5 +1,5 @@
 import Leaflet from 'leaflet'
-import { streetlightPopup} from './Popups' //devsitesPopup, notdevsitesPopup}
+import { streetLightingPopup} from './Popups' //devsitesPopup, notdevsitesPopup}
 import { streetlightingStyle} from './Styles'
 
 const Configuration = {
@@ -32,7 +32,7 @@ const Configuration = {
             url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=highway_assets:street_lights_reporting&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
                 maxZoom: 16,
-                onEachFeature: streetlightPopup,
+                onEachFeature: streetLightingPopup,
                 pointToLayer: (feature, latlng) => {
                     return Leaflet.circleMarker (latlng, streetlightingStyle (feature))
 
