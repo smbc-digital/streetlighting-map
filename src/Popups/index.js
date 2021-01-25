@@ -44,7 +44,7 @@ const streetlightMaintenancePopup = feature => {
 }
 
 const streetLightingPopup = (feature, layer) => {
-  var content = getcontent_streetlights(feature);
+  var content = getcontent_streetlights(feature)
 
   layer.bindPopup(content)
 }
